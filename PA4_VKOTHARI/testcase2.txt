@@ -1,0 +1,65 @@
+2D predator prey simulation
+
+The rules:
+	Time is stimulated in time steps and every step the ants and Doodlebugs
+	The following actions can be performed :
+		  MOVE - Eat bordering ants or randomly up, down, left, or right
+		  STARVE - If they have not eaten an ant in 3 time steps(for doodlebug, ants don't starve
+		  MOVE - up, down left or right accordingly
+		  BREED -according to each species conditions
+
+
+| | | | | | |O| | |O| | | | | | | | | | |
+|O| | | | | | | | | |O| | | | |O| | | |O|
+| | | |O|X|O| |O|X| |O| | | | | | | |O| |
+| | | |O| | |O| | | |O|O| | | | | | | |O|
+| | | |O| | | |O|O| |O| | | |O|O| |O|O|O|
+| | | | | |O| | | |O| | | | | | | | | |O|
+|O|O| |O| |O|O| | |O| |O|O| | | | | | | |
+| |O| | | |O| | |O|O| | | | | |O|O| | | |
+| | | | |O| | | |O|O| |O| | | |O| | | | |
+| |O|O| | | | |O| | | | | |O| | | |O| | |
+| | | |O| | | | |O| | | | | | | | | | |O|
+|O| |O| | | | | |O| | | | | | | | |O| | |
+|O| | | | |O| | | |O| |O| | | | |O| | | |
+|O| | | | | |O| | | | | | | | |O|O|O|O| |
+| |O| | |O| |X|O| | | | | | | | | | |O|O|
+| | | | |X| | |O| | |O| | |O| | | | | | |
+| |O| |O|O|O| | |O| | | | |O| | | | |O| |
+| | |O| | | | |X|O| | |O|O|O| |O|O| | | |
+| | | | |O|O| | |O| | | | | | |O| | | | |
+| | | | |O| | | |O| | | |O| | | |O| | | |
+The Game has Ended
+Desired Board Size: 20
+Initial number of Ants: 100
+Starting Number of Doodlebugs: 5
+Number of Steps: 1000
+Random Seed: 1
+PAUSE type: 0
+Steps done : 1000
+Total Ants: 24714
+Ants  remaining: 400
+Total Doodlebugs: 3263
+ Doodlebugs Remaining: 0
+Final Grid:
+
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
+|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|
